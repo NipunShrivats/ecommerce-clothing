@@ -7,7 +7,7 @@ export default function Offers() {
             <div className='offers container'>
                 <div>
                     <img src={exclusive} alt="" />
-                    <button className='offer-btn'>check now</button>
+                    <button className='offer-btn btn'>check now</button>
                 </div>
             </div>
         </>

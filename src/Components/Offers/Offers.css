@@ -28,11 +28,6 @@
     border: none;
     border-radius: 10rem;
     font-size: 18px;
-    background-color: tomato;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-    text-transform: capitalize;
 }
 
 .offers .offer-btn:active {

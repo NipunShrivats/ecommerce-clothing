@@ -11,6 +11,7 @@ import ShopCategory from "./Pages/ShopCategory/ShopCategory"
 import Product from "./Pages/Product/Product"
 import Cart from "./Pages/Cart/cart"
 import LoginSignup from "./Pages/loginSignup/loginSignup"
+import Footer from './Components/Footer/Footer';
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
           <Route path='/cart' exact={true} element={<Cart />} />
           <Route path='/loginSignup' exact={true} element={<LoginSignup />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )

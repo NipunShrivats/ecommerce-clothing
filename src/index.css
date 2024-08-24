@@ -21,9 +21,23 @@ ul li a {
 
 .title-line {
     /* border: 2px solid red; */
-    background-color: black;
+    background-color: rgb(67, 67, 67);
     width: 10rem;
     height: .3rem;
     border-radius: 2rem;
     margin-top: 1.5rem;
+}
+
+.btn {
+    border: none;
+    background-color: tomato;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn:active {
+    background-color: rgb(255, 130, 108);
 }
