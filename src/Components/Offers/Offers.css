@@ -1,0 +1,40 @@
+.offers {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.offers div {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.offers img {
+    width: 90%;
+}
+
+.offers .offer-btn {
+    position: absolute;
+    left: 11rem;
+    top: 17.5rem;
+    width: 16rem;
+    height: 4rem;
+    border: none;
+    border-radius: 10rem;
+    font-size: 18px;
+    background-color: tomato;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.offers .offer-btn:active {
+    background-color: rgb(255, 130, 108);
+}
