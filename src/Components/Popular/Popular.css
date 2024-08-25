@@ -1,0 +1,28 @@
+.popular {
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    margin-bottom: 6rem;
+}
+
+.popular .popular-title {
+    /* border: 2px solid red; */
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.popular .popular-title h1 {
+    text-transform: capitalize;
+
+}
+
+.popular-item {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}

@@ -1,0 +1,61 @@
+.newsLetter {
+    /* border: 2px solid red; */
+    margin-bottom: 6px;
+}
+
+.newsLetter .newsBox {
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background-color: rgb(255, 215, 222);
+    gap: 30px;
+}
+
+.newsLetter .newsBox h1 {
+    /* border: 2px solid red; */
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+    font-weight: 55px;
+}
+
+.newsLetter .newsBox div {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 730px;
+    height: 60px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+    /* border: 2px solid red; */
+}
+
+.newsLetter .newsBox div input {
+    /* border: 2px solid red; */
+    border: none;
+    outline: none;
+    width: 480px;
+    margin-left: 30px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.newsLetter .newsBox div button {
+    height: 60px;
+    /* border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px; */
+    border-radius: 80px;
+    width: 200px;
+    background-color: black;
+}
+
+.newsLetter .newsBox div button:active {
+    background-color: rgb(133, 133, 133);
+}
