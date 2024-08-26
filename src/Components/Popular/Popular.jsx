@@ -8,7 +8,7 @@ export default function Popular() {
         <>
             <div className='popular container'>
                 <div className='popular-title'>
-                    <h1>popular in women</h1>
+                    <h1 className='heding'>popular in women</h1>
                     <div className='title-line'></div>
                 </div>
                 <div className='popular-item'>

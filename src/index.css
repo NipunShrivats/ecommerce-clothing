@@ -41,3 +41,33 @@ ul li a {
 .btn:active {
     background-color: rgb(255, 130, 108);
 }
+
+.heading {
+    text-transform: capitalize;
+}
+
+.btn-transparent {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20rem;
+    text-transform: capitalize;
+    color: rgb(46, 46, 46);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.btn-transparent:hover {
+    background-color: rgb(229, 229, 229);
+    border: 1px solid transparent;
+}
+
+.btn-transparent:active {
+    background-color: rgb(154, 154, 154);
+}

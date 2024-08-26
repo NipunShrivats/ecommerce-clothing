@@ -12,10 +12,6 @@
     justify-content: center;
 }
 
-.newCol .newCol-heading {
-    text-transform: capitalize;
-}
-
 .newCol .newCol-item {
     /* border: 2px solid red; */
     display: flex;
