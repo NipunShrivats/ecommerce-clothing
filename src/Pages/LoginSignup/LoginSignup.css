@@ -11,8 +11,8 @@
     /* border: 2px solid red; */
     border-radius: 1rem;
     background-color: white;
-    height: 80%;
-    width: 40%;
+    height: 30rem;
+    width: 35rem;
     padding: 2rem;
 }
 
@@ -34,7 +34,7 @@
 .loginSignup-container .loginSignup-fields form input {
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: .8rem 0rem;
-    width: 80%;
+    width: 97%;
     height: 3.5rem;
     border-radius: .2rem;
     padding-left: 1rem;
@@ -74,7 +74,7 @@
 .loginSignup-container .loginSignup-fields .loginsignup-agree input[type="checkbox"] {
     /* border: 2px solid red; */
     width: 1.2rem;
-    margin-right: 1rem;
+    margin-right: .5rem;
     background-color: black;
     cursor: pointer;
 }
