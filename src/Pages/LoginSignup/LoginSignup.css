@@ -1,0 +1,80 @@
+.loginSignup {
+    /* border: 2px solid red; */
+    background-color: rgb(255, 207, 215);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginSignup-container {
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    background-color: white;
+    height: 80%;
+    width: 40%;
+    padding: 2rem;
+}
+
+.loginSignup-container h1 {
+    margin-bottom: 1.5rem;
+}
+
+.loginSignup-container .loginSignup-fields {
+    /* border: 2px solid red; */
+}
+
+.loginSignup-container .loginSignup-fields form {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.loginSignup-container .loginSignup-fields form input {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: .8rem 0rem;
+    width: 80%;
+    height: 3.5rem;
+    border-radius: .2rem;
+    padding-left: 1rem;
+    font-size: 16px;
+}
+
+.loginSignup-container .loginSignup-fields .signupbtn {
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+    margin-top: 1rem;
+    width: 43%;
+    height: 3rem;
+    border-radius: .3rem;
+
+}
+
+.loginSignup-container .loginSignup-fields .loginsignup-login {
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+.loginSignup-container .loginSignup-fields .loginsignup-login a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.loginSignup-container .loginSignup-fields .loginsignup-login a:hover {
+    color: rgb(255, 57, 22);
+}
+
+.loginsignup-agree {
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    height: 1rem;
+}
+
+.loginSignup-container .loginSignup-fields .loginsignup-agree input[type="checkbox"] {
+    /* border: 2px solid red; */
+    width: 1.2rem;
+    margin-right: 1rem;
+    background-color: black;
+    cursor: pointer;
+}

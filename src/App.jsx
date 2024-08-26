@@ -27,7 +27,7 @@ export default function App() {
           <Route path='/' exact={true} element={<Shop />} />
           <Route path='/mens' exact={true} element={<ShopCategory category="men" banner={men_banner} />} />
 
-          <Route path='/women' exact={true} element={<ShopCategory category="woman" banner={women_banner} />} />
+          <Route path='/women' exact={true} element={<ShopCategory category="women" banner={women_banner} />} />
 
           <Route path='/kids' exact={true} element={<ShopCategory category="kids" banner={kids_banner} />} />
 

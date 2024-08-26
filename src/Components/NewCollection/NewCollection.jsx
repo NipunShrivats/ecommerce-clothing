@@ -10,7 +10,7 @@ export default function NewCollection() {
         <>
             <div className='newCol container'>
                 <div className='newCol-title'>
-                    <h1 className='newCol-heading'>popular in women</h1>
+                    <h1 className='heading'>new collection</h1>
                     <div className='title-line'></div>
                 </div>
                 <div className='newCol-item'>
