@@ -6,12 +6,17 @@
     align-items: center;
     justify-content: center;
     flex: 20%;
+    position: relative;
+    /* overflow: hidden; */
 }
 
-.item img {
+.item .img {
     width: 15rem;
+    cursor: pointer;
     /* border: 2px solid red; */
+    z-index: 0;
 }
+
 
 .item p {
     margin: 6px 0px;
@@ -37,7 +42,80 @@
     text-decoration: line-through;
 }
 
-.item img:hover {
-    transform: scale(1.05);
+/* ----------------------------------------------------- */
+
+.images-holder {
+    /* border: 2px solid red; */
+    position: relative;
+    cursor: pointer;
+}
+
+.images-holder:hover .layer1 {
+    opacity: 1;
+    justify-content: center;
+}
+
+.images-holder:hover .layer1 .top {
+    margin-top: 0rem;
+}
+
+.layer1 {
+    /* border: 2px solid rgb(17, 255, 0); */
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 17.9rem;
+    width: 15rem;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
     transition: .5s;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.layer1 span {
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 2rem;
+    padding: .5rem;
+    display: flex;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.layer1 span:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.layer1 .top {
+    /* border: 2px solid red; */
+    margin-top: 10rem;
+    display: flex;
+    gap: .5rem;
+    transition: .5s;
+}
+
+.layer1 .bottom {
+    /* border: 2px solid red; */
+
+}
+
+.layer1 .bottom button {
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.layer1 .bottom button:hover {
+    background-color: rgb(173, 173, 173);
 }
