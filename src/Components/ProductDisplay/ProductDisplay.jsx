@@ -31,7 +31,7 @@ export default function ProductDisplay(props) {
                         <Box sx={{ '& > legend': { mt: 2 } }} className="box">
                             {/* <Typography component="legend">Read only</Typography> */}
                             <Rating name="read-only" value={value} readOnly />
-                            <p>(122)</p>
+                            <p>(122 Reviews)</p>
                         </Box>
                     </div>
                     <div className="productDisplay-Right-Prices">
@@ -45,16 +45,19 @@ export default function ProductDisplay(props) {
                     <div className='productDisplay-right-size'>
                         <h1>Select Size</h1>
                         <div className='productDisplay-right-size'>
-                            <div>S</div>
-                            <div>M</div>
-                            <div>L</div>
-                            <div>XL</div>
-                            <div>XXL</div>
+                            <div><p>S</p></div>
+                            <div><p>M</p></div>
+                            <div><p>L</p></div>
+                            <div><p>XL</p></div>
+                            <div><p>XXL</p></div>
                         </div>
                     </div>
                     <button>ADD TO CART</button>
-                    <p className='productDisplay-right-category'> <span>Category: </span> Woman, T-shirt, Crop Top</p>
-                    <p className='productDisplay-right-category'> <span>Tags: </span>Modern, Latest</p>
+
+                    <div>
+                        <p className='productDisplay-right-category'> <span>Category: </span> Woman, T-shirt, Crop Top</p>
+                        <p className='productDisplay-right-category'> <span>Tags: </span>Modern, Latest</p>
+                    </div>
                 </div>
             </div>
         </>

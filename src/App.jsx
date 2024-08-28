@@ -13,13 +13,16 @@ import Footer from "./Components/Footer/Footer"
 import Shop from "./Pages/Shop/Shop"
 import ShopCategory from "./Pages/ShopCategory/ShopCategory"
 import Product from "./Pages/Product/Product"
-import Cart from "./Pages/Cart/cart"
+import Cart from "./Pages/Cart/Cart"
 import LoginSignup from "./Pages/loginSignup/loginSignup"
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 export default function App() {
   return (
     <>
+
       <BrowserRouter>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route path='/' exact={true} element={<Shop />} />
