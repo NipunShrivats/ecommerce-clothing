@@ -1,0 +1,48 @@
+.descriptionBox {
+    /* border: 2px solid red; */
+
+    margin-bottom: 6rem;
+}
+
+.descriptionBox .all-box {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+
+.descriptionBox .descriptionBox-navigator {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: .5rem;
+}
+
+.descriptionBox .descriptionBox-description {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: rgb(246, 246, 246);
+}
+
+.descriptionBox .descriptionBox-navigator .descriptionBox-nav-box {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    /* justify-content: center; */
+    cursor: pointer;
+    transition: .3s;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+}
+
+.descriptionBox .descriptionBox-navigator .descriptionBox-nav-box:hover {
+    background-color: rgba(0, 0, 0, 0.804);
+}
+
+.descriptionBox .descriptionBox-navigator .descriptionBox-nav-box:active {
+    background-color: rgba(0, 0, 0, 0.192);
+}
