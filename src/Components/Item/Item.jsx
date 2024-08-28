@@ -3,6 +3,8 @@ import "./Item.css";
 import { FaHeart } from "react-icons/fa6";
 import { FaShoppingCart } from "react-icons/fa";
 
+import { Link } from "react-router-dom"
+
 export default function Item(props) {
     const { image, name, new_price, old_price } = props
     return (
@@ -11,13 +13,14 @@ export default function Item(props) {
                 <div className='images-holder'>
                     <img src={image} alt="" className='img' />
                     <div className='layer1'>
-                        {/* <div className='options'> */}
                         <div className='top'>
                             <span><FaHeart /></span>
                             <span><FaShoppingCart /></span>
                         </div>
                         <div className='bottom'>
-                            <button>View Product</button>
+                            <Link to={`/product/${props.id}`}>
+                                <button>View Product</button>
+                            </Link>
                         </div>
                         {/* </div> */}
                     </div>

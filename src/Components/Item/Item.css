@@ -59,6 +59,25 @@
     margin-top: 0rem;
 }
 
+.images-holder:hover .layer1 .top span:first-child {
+    transition: .3s;
+}
+
+.images-holder:hover .layer1 .top span:first-child:hover {
+    background-color: red;
+    color: white;
+}
+
+.images-holder:hover .layer1 .top span:last-child {
+    transition: .3s;
+}
+
+.images-holder:hover .layer1 .top span:last-child:hover {
+    background-color: green;
+    color: white;
+
+}
+
 .layer1 {
     /* border: 2px solid rgb(17, 255, 0); */
     background-color: rgba(0, 0, 0, 0.5);
@@ -118,4 +137,8 @@
 
 .layer1 .bottom button:hover {
     background-color: rgb(173, 173, 173);
+}
+
+.layer1 .bottom button:active {
+    background-color: rgb(72, 72, 72);
 }
