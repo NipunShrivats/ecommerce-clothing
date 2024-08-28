@@ -4,9 +4,11 @@
     font-family: "DM Sans", sans-serif;
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 }
 
+body {
+    display: contents;
+}
 
 ul li a {
     /* border: 2px solid red; */
