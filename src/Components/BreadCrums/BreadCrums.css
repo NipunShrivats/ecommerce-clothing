@@ -1,0 +1,13 @@
+.breadcrums {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.breadcrums span {
+    /* border: 2px solid red; */
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+}

@@ -9,14 +9,12 @@ import women_banner from "./assets/Frontend_Assets/banner_women.png"
 import kids_banner from "./assets/Frontend_Assets/banner_kids.png"
 import Footer from "./Components/Footer/Footer"
 
-
 // Pages
 import Shop from "./Pages/Shop/Shop"
 import ShopCategory from "./Pages/ShopCategory/ShopCategory"
 import Product from "./Pages/Product/Product"
 import Cart from "./Pages/Cart/cart"
 import LoginSignup from "./Pages/loginSignup/loginSignup"
-
 
 export default function App() {
   return (

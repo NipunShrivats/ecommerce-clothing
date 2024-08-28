@@ -19,7 +19,7 @@ export default function ShopCategory(props) {
                         <span>Showing 1-12</span> out of 36 products
                     </p>
                     <div className='shopcategory-sort'>
-                        <btn className="btn-transparent">sort by <span> <IoIosArrowDropdownCircle /></span></btn>
+                        <button className="btn-transparent">sort by <span> <IoIosArrowDropdownCircle /></span></button>
                     </div>
                 </div>
                 <div className='shopcategory-products'>
