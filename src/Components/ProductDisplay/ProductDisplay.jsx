@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./ProductDisplay.css";
 
 import Box from "@mui/material/Box";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
 
+import { ShopContext } from "../../Context/ShopContext";
+
 export default function ProductDisplay(props) {
   const { product } = props;
+  const { addToCart } = useContext(ShopContext);
 
   const [value, setValue] = useState(4);
   return (
@@ -70,7 +73,13 @@ export default function ProductDisplay(props) {
                 </div>
               </div>
             </div>
-            <button>ADD TO CART</button>
+            <button
+              onClick={() => {
+                addToCart(product.id);
+              }}
+            >
+              ADD TO CART
+            </button>
 
             <div>
               <p className="productDisplay-right-category">
