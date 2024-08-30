@@ -3,9 +3,11 @@ import "./CartItems.css";
 import { ShopContext } from "../../Context/ShopContext";
 import { dividerClasses } from "@mui/material";
 import { IoMdTrash } from "react-icons/io";
+import { MdOutlineShoppingBag } from "react-icons/md";
 
 export default function CartItems() {
-  const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
+  const { getTotalCartAmount, all_product, cartItems, removeFromCart } =
+    useContext(ShopContext);
 
   return (
     <>
@@ -47,31 +49,40 @@ export default function CartItems() {
           }
           return null;
         })}
+
         <div className="cartitems-down">
           <div className="cartitems-total">
             <h1>Cart Total</h1>
             <div>
               <div className="cartitems-total-item">
                 <p>Subtotal</p>
-                <p>₹{0}</p>
+                <p>₹{getTotalCartAmount()}</p>
               </div>
               <div className="title-line-long"></div>
-              <p>Shipping Fee</p>
-              <p>Fee</p>
+              <div className="cartitems-total-item">
+                <p>Shipping Fee</p>
+                <p>Free</p>
+              </div>
             </div>
             <div className="title-line-long"></div>
-            <div className="cartitems-total-items">
+            <div className="cartitems-total-item">
               <h3>Total</h3>
-              <h3>₹{0}</h3>
+              <h3>₹{getTotalCartAmount()}</h3>
             </div>
           </div>
-          <button>proceed to checkout</button>
-        </div>
-        <div className="cartitems-promocode">
-          <p>If you have a coupon code, Enter it here</p>
-          <div className="cartitems-promobox">
-            <input type="text" placeholder="promo code" />
-            <button>Submit</button>
+
+          <div className="cartitems-promocode">
+            <p>If you have a coupon code, Enter it here</p>
+            <div className="cartitems-promobox">
+              <input type="text" placeholder="Enter Coupon Code" />
+              <button>Submit</button>
+            </div>
+            <button className="proceed-btn">
+              Checkout
+              <span>
+                <MdOutlineShoppingBag />
+              </span>
+            </button>
           </div>
         </div>
       </div>
