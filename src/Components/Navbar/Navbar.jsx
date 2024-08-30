@@ -4,6 +4,7 @@ import logo from "../../assets/logo/logo-bg.png";
 import cart_icon from "../../assets/Frontend_Assets/cart_icon.png";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
+import { FiShoppingCart } from "react-icons/fi";
 
 export default function Navbar() {
   const [menu, setMenu] = useState("shop");
@@ -57,7 +58,9 @@ export default function Navbar() {
           </Link>
 
           <Link to="/cart">
-            <img src={cart_icon} alt="" />
+            <span className="cart-icon">
+              <FiShoppingCart />
+            </span>
           </Link>
           <div className="nav-cart-count">{getTotalCartItems()}</div>
         </div>

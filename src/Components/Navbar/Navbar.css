@@ -79,9 +79,22 @@
     cursor: pointer;
 }
 
-.nav-login-cart img {
+.nav-login-cart .cart-icon {
     /* border: 2px solid red; */
-    width: 2rem;
+    font-size: 1.5rem;
+    color: black;
+    padding: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+.nav-login-cart .cart-icon:hover {
+    transition: .3s;
+    background-color: #d7d7d7;
+}
+.nav-login-cart .cart-icon:active {
+    background-color: #000000;
 }
 
 .nav-login-cart button:active {
@@ -96,8 +109,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -35px;
-    margin-left: -55px;
+    margin-top: -30px;
+    margin-left: -68px;
     border-radius: 10rem;
     font-size: 14px;
     background-color: rgb(255, 0, 0);
