@@ -16,7 +16,7 @@
 }
 
 .offers img {
-    width: 80rem;
+    width: 80%;
 }
 
 .offers .offer-btn {
@@ -32,4 +32,10 @@
 
 .offers .offer-btn:active {
     background-color: rgb(255, 130, 108);
+}
+
+@media(max-width:600px){
+    .offers img {
+        width: 100%;
+    }
 }

@@ -194,6 +194,10 @@
         justify-content: center;
         top: 70px ;
         z-index: 100;
+      }
+      .nav-dropdown:hover{
+        /* rotate: 90deg; */
+        transform: rotate(90deg);
     }
 
     .nav-menu-visible{
