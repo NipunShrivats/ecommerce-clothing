@@ -5,3 +5,19 @@
   border-radius: 0.5rem;
   background-color: rgb(246, 246, 246);
 }
+
+@media (max-width:800px) {
+  .description {
+    padding: 1rem;
+  }
+  .description p{
+    font-size: .8rem;
+  }
+}
+
+@media (max-width:500px) {
+  .description p{
+    font-size: .6rem;
+  }
+}
+
