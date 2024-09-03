@@ -180,3 +180,48 @@
 .cartitems-promobox button:active{
     background-color: rgb(160, 160, 160);
 }
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+@media(max-width:1430px){
+    .cartitems-down{
+     }
+    .cartitems-total{
+        width: 30rem;
+    }
+}
+@media(max-width:1230px){
+    .cartitems-down{
+     }
+    .cartitems-total{
+        width: 25rem;
+    }
+}
+@media(max-width:1125px){
+    .cartitems-down{
+        gap: 2rem;
+     }
+    .cartitems-total{
+        width: 25rem;
+    }
+    .cartitems-promocode{
+        width: 25rem;
+    }
+}
+@media(max-width:850px){
+    .cartitems-down{
+        flex-direction: column;
+    }
+    .cartitems-down{
+        gap: 2rem;
+     }
+    .cartitems-total{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .cartitems-promocode{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

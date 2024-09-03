@@ -66,12 +66,14 @@ export default function Navbar() {
             <button>Login</button>
           </Link>
 
-          <Link to="/cart">
-            <span className="cart-icon">
-              <FiShoppingCart />
-            </span>
-          </Link>
-          <div className="nav-cart-count">{getTotalCartItems()}</div>
+          <div className="cart-conatiner">
+            <Link to="/cart">
+              <span className="cart-icon">
+                <FiShoppingCart />
+              </span>
+            </Link>
+            <div className="nav-cart-count">{getTotalCartItems()}</div>
+          </div>
         </div>
       </div>
     </>

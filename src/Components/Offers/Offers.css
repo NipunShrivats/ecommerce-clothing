@@ -34,8 +34,8 @@
     background-color: rgb(255, 130, 108);
 }
 
-@media(max-width:600px){
+@media(max-width:1200px){
     .offers img {
-        width: 100%;
+        width: 120%;
     }
 }

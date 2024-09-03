@@ -89,6 +89,10 @@ ul li a {
     color: black;
 }
 
+.swiper-pagination-bullet{
+    width: 6px;
+    height: 6px;
+}
 .swiper-pagination-bullet-active{
     background-color: black;
 }

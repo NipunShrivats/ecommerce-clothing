@@ -28,6 +28,21 @@
     gap: 2.5rem;
 }
 /* ------------------------------------ */
-@media(max-width:1280px){
+@media(max-width:600px){
+    .popular .popular-title {
+        /* border: 2px solid red; */
+        margin-bottom: 2rem;
+        margin-top: -4rem;
+    }
     
+    .popular .popular-title h1 {
+        /* border: 2px solid red;   */
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+    }
+
+    .popular .title-line{
+        /* border: 2px solid red; */
+        height: .15rem;
+    }
 }

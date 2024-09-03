@@ -34,7 +34,7 @@ export default function Product() {
             <BreadCrums product={product} />
             <ProductDisplay product={product} />
             <DescAndReview />
-            <RelatedProducts />
+            {/* <RelatedProducts /> */}
           </div>
         </>
       )}
