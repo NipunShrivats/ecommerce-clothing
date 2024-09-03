@@ -41,12 +41,19 @@
 
 
 @media (max-width:500px) {
+  .DescAndReview {
+    margin-top: -4rem;
+  }
+  .DescAndReview .all-box {
+    padding: .5rem;
+  }
   .DescAndReview .DescAndReview-navigator {
     /* border: 2px solid red; */
     display: flex;
     align-items: baseline;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-top: .6rem;
+    margin-bottom: 1rem;
     gap: 0.5rem;
   }
   

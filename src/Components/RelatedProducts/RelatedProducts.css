@@ -15,4 +15,11 @@
 .relatedProducts-item {
     /* border: 2px solid red; */
     display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:400px) {
+    .relatedProducts-item {
+        gap: 1.5rem;
+    }
 }

@@ -36,6 +36,8 @@
   /* border: 2px solid red; */
   padding: 2rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .productDisplay-Right .productDisplay-Right-inside {
@@ -237,8 +239,11 @@
 
 
 @media (max-width:400px) {
-  .productDisplay {
+  .productDisplay-Right{
     /* border: 2px solid red; */
+    width: 100%;
+  }
+  .productDisplay {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -305,5 +310,8 @@
   }
   .productDisplay-right-category{
     font-size: .8rem;
+  }
+  .productDisplay-right-size{
+    /* border: 2px solid red; */
   }
 }
