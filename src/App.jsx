@@ -8,16 +8,14 @@ import men_banner from "./assets/Frontend_Assets/banner_mens.png";
 import women_banner from "./assets/Frontend_Assets/banner_women.png";
 import kids_banner from "./assets/Frontend_Assets/banner_kids.png";
 import Footer from "./Components/Footer/Footer";
-import Description from "./Components/Description/Description";
 
 // Pages
 import Shop from "./Pages/Shop/Shop";
 import ShopCategory from "./Pages/ShopCategory/ShopCategory";
 import Product from "./Pages/Product/Product";
 import Cart from "./Pages/Cart/Cart";
-import LoginSignup from "./Pages/loginSignup/loginSignup";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
-import Reviews from "./Components/Reviews/Reviews";
+import LoginSignup from "./Pages/LoginSignup/LoginSignup";
 
 export default function App() {
   return (
