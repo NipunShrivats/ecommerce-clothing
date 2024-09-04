@@ -10,7 +10,7 @@ export default function DescAndReview() {
         <div className="all-box">
           <div className="DescAndReview-navigator">
             <div className="DescAndReview-nav-box">Description</div>
-            <div className="DescAndReview-nav-box">Reviews(122)</div>
+            <div className="DescAndReview-nav-box">Reviews (122)</div>
           </div>
           <Description />
         </div>
