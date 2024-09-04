@@ -1,4 +1,5 @@
 .footer {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,19 +7,19 @@
     gap: 50px;
     background-color: #ebebeb;
     padding-top: 2rem;
+    /* position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0rem; */
 }
 
-.footer img {
+.footer img { 
+    /* border: 2px solid red; */
     width: 15rem;
 }
 
-.footer-logo p {
-    color: #383838;
-    font-size: 46px;
-    font-weight: 700;
-}
-
 .footer-link {
+    /* border: 2px solid red; */
     display: flex;
     list-style: none;
     gap: 50px;
@@ -27,6 +28,7 @@
 }
 
 .footer-link li {
+    /* border: 2px solid red; */
     cursor: pointer;
     font-weight: 600;
     color: #555555
@@ -40,11 +42,11 @@
 }
 
 .footer-icons-container {
+    /* border: 2px solid red; */
     padding: 10px;
     /* background: #fbfbfb; */
     /* background: #ff0000bb; */
     font-size: 1.4rem;
-    /* border: 1px solid #ebebeb; */
     border-radius: 20rem;
     transition: .5s;
     cursor: pointer;
@@ -82,8 +84,51 @@
 
 .title-line-big {
     background-color: rgb(87, 87, 87);
-    width: 60rem;
+    width: 80%;
     height: .2rem;
     border-radius: 2rem;
     margin-top: 1.5rem;
+}
+
+@media (max-width:700px) {
+    .footer-link {
+        /* border: 2px solid rgb(0, 47, 255); */
+        list-style: none;
+        gap: 1rem;
+        color: #252525;
+        font-size: 16px;
+    }
+    
+    .footer-social-icons {
+        /* border: 2px solid red; */
+        gap: .5rem;
+    }
+
+    .footer-icons-container {
+        /* border: 2px solid red; */
+        padding: 5px;
+    }
+
+    .footer-icons-container a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #353535
+    }
+}
+
+@media (max-width:400px) {
+    .footer-link {
+        /* border: 2px solid rgb(0, 47, 255); */
+        list-style: none;
+        gap: 1rem;
+        color: #252525;
+        font-size: 10px;
+    }
+    .footer-copyright p{
+        font-size: 12px;
+    }
+    .footer-link {
+        font-size: 14px;
+    }
 }
