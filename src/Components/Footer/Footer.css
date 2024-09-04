@@ -7,6 +7,10 @@
     gap: 50px;
     background-color: #ebebeb;
     padding-top: 2rem;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .footer img {
