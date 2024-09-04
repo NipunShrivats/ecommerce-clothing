@@ -333,9 +333,6 @@
 }
 @media(max-width:600px){
     .cartitems .cartitems-format-main{
-        /* border: 2px solid red; */
-        /* display: flex;
-        flex-wrap: wrap; */
         grid-template-columns: 0.5fr 3fr 1fr;
     }
     .your-orders{
