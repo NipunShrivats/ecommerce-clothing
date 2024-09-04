@@ -352,7 +352,6 @@
         outline: none;
         border: 1px solid rgba(0,0,0,0.2);
     }
-    
 }
 @media(max-width:550px){
     .cartitems-promobox {
@@ -365,7 +364,7 @@
     }
     .cartitems-promobox button{
         font-size: .8rem;
-    }   
+    }
 }
 @media(max-width:400px){
     .cartitems-promocode p{
@@ -382,5 +381,6 @@
     .cartitems-promobox button{
         font-size: .8rem;
         height: 2.6rem;
-    }   
+    }
+
 }
