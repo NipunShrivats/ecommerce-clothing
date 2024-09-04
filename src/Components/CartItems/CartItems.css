@@ -334,14 +334,18 @@
 @media(max-width:600px){
     .cartitems .cartitems-format-main{
         /* border: 2px solid red; */
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+        grid-template-columns: 0.5fr 3fr 1fr;
     }
     .your-orders{
         /* border: 2px solid red; */
         text-align: center;
         margin-top: -1rem;
         margin-bottom: 1rem;
+    }
+    .remove-btn{
+        margin-left: 0rem;
     }
 }
 @media(max-width:550px){
