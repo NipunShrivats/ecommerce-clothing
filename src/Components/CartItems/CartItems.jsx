@@ -11,8 +11,13 @@ export default function CartItems() {
 
   return (
     <>
+      <div className="cart-head-title">
+        <h1 className="your-orders-title">View Your Orders</h1>
+        <div className="title-line title-line-top"></div>
+      </div>
+
       <div className="cartitems container">
-        <div className="cartitems-format-main">
+        <div className="cartitems-format-main cart-heading">
           <p>Products</p>
           <p>Title</p>
           <p>Price</p>
@@ -20,31 +25,37 @@ export default function CartItems() {
           <p>Total</p>
           <p>Remove</p>
         </div>
-        <div className="title-line-long"></div>
+        <div className="title-line-long cart-line"></div>
 
         {all_product.map((e) => {
           if (cartItems[e.id] > 0) {
             return (
-              <div key={e.id}>
-                <div className="cartitem-format cartitems-format-main">
-                  <img src={e.image} alt="" className="carticon-product-icon" />
-                  <p>{e.name}</p>
-                  <p>₹{e.new_price}/-</p>
-                  <div className="cartitems-quantity-div">
-                    <button className="cartitems-quantity">
-                      {cartItems[e.id]}
-                    </button>
+              <>
+                <div key={e.id} className="cartitem-container">
+                  <div className="cartitem-format cartitems-format-main">
+                    <img
+                      src={e.image}
+                      alt=""
+                      className="carticon-product-icon"
+                    />
+                    <p className="product-name">{e.name}</p>
+                    <p>₹{e.new_price}/-</p>
+                    <div className="cartitems-quantity-div">
+                      <button className="cartitems-quantity">
+                        {cartItems[e.id]}
+                      </button>
+                    </div>
+                    <p>₹{e.new_price * cartItems[e.id]}/-</p>
+                    <IoMdTrash
+                      className="remove-btn"
+                      onClick={() => {
+                        removeFromCart(e.id);
+                      }}
+                    />
                   </div>
-                  <p>₹{e.new_price * cartItems[e.id]}/-</p>
-                  <IoMdTrash
-                    className="remove-btn"
-                    onClick={() => {
-                      removeFromCart(e.id);
-                    }}
-                  />
+                  <div className="title-line-long cart-line2"></div>
                 </div>
-                <div className="title-line-long"></div>
-              </div>
+              </>
             );
           }
           return null;

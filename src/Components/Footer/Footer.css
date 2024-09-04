@@ -7,13 +7,13 @@
     gap: 50px;
     background-color: #ebebeb;
     padding-top: 2rem;
-    position: relative;
+    /* position: relative;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0rem; */
 }
 
-.footer img {
+.footer img { 
     /* border: 2px solid red; */
     width: 15rem;
 }
@@ -96,7 +96,7 @@
         list-style: none;
         gap: 1rem;
         color: #252525;
-        font-size: 12px;
+        font-size: 16px;
     }
     
     .footer-social-icons {
@@ -128,4 +128,10 @@
     .footer-copyright p{
         font-size: 12px;
     }
+    .footer-link {
+        font-size: 14px;
+    }
+    
 }
+
+
