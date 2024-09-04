@@ -336,8 +336,9 @@
 @media(max-width:600px){
     .cartitems .cartitems-format-main{
         /* border: 2px solid red; */
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+        grid-template-columns: 0.5fr 3fr 1fr;
     }
     .your-orders{
         /* border: 2px solid red; */
@@ -345,12 +346,11 @@
         margin-top: -1rem;
         margin-bottom: 1rem;
     }
+    .remove-btn{
+        margin-left: -.1rem;
+    }   
 }
 @media(max-width:550px){
-    .cartitems-promocode{
-        /* border: 2px solid red; */
-        /*  border: 2px solid red; */
-    }
     .cartitems-promobox {
         /* border: 2px solid red;    */
         height: 3.5rem;
@@ -361,9 +361,9 @@
     }
     .cartitems-promobox button{
         font-size: .8rem;
-    }   
+    }
 }
-@media(max-width:550px){
+@media(max-width:400px){
     .cartitems-promocode p{
         font-size: .8rem;
     }
@@ -378,5 +378,6 @@
     .cartitems-promobox button{
         font-size: .8rem;
         height: 2.6rem;
-    }   
+    }
+
 }
