@@ -190,8 +190,7 @@
         transition: 0.5s;
     }
     .nav-dropdown:active{
-      /* rotate: 90deg; */
-      transform: rotate(180deg);
+      transform: rotate(90deg);
       transition: .5s;
   }
     .nav-menu{

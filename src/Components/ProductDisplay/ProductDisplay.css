@@ -315,3 +315,17 @@
     /* border: 2px solid red; */
   }
 }
+
+@media (max-width:400px) {
+  .productDisplay-right-size .productDisplay-right-size div p {
+    /* border: 2px solid red; */
+    padding: 0.6rem 1rem;
+    font-size: .8rem;
+  }
+  .productDisplay-Right button {
+    width: 19rem;
+    height: 2.8rem;
+    font-size: .8rem;
+    font-weight: 600;
+  }
+}
