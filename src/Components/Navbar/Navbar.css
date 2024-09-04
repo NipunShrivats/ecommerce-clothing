@@ -186,14 +186,14 @@
         padding: .08rem;
         display: flex;
         font-size: 1.2rem;
-        /* transform: rotate(0deg); */
+        transform: rotate(0deg);
         transition: 0.5s;
     }
-    /* .nav-dropdown:hover{
-      rotate: 90deg;
+    .nav-dropdown:hover{
+      /* rotate: 90deg; */
       transform: rotate(90deg);
       transition: .5s;
-  } */
+  }
     .nav-menu{
         border: 1px solid rgba(0,0,0,0.1);
         display: none;
