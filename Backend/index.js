@@ -107,7 +107,6 @@ app.post("/addproduct", async (req, res) => {
 });
 
 // creating api for deleting products
-
 app.post("/removeproduct", async (req, res) => {
   await Product.findOneAndDelete({ id: req.body.id });
   console.log("Removed");
@@ -115,6 +114,13 @@ app.post("/removeproduct", async (req, res) => {
     success: true,
     name: req.body.name,
   });
+});
+
+//Creating API for getting all products
+app.get("/allproducts", async (req, res) => {
+  let products = await Product.find({});
+  console.log("All Products Fetched");
+  res.send(products);
 });
 
 app.listen(port, (error) => {
