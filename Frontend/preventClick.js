@@ -1,10 +1,8 @@
-document.onkeydown = function (e) {
-  if (event.keyCode == 123) {
-    // alert("Ruk ja bete!")
+document.onkeydown = function (event) {
+  if (event.key == 123) {
     return false;
   }
-  if (e.ctrlKey && e.shiftKey && event.keyCode == 73) {
-    // alert("Ruk ja bete!")
+  if (event.ctrlKey && event.shiftKey && event.key == 73) {
     return false;
   }
 };

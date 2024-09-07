@@ -27,21 +27,19 @@
 
 .upload-container-keupar {
     /* border: 2px solid red; */
+    border: 1px dotted rgb(0, 0, 0, 0.2);
     width: 19rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: .3rem;
 }
 
-.upload-container {
-    border: 1px dotted rgb(0, 0, 0, 0.2);
-    height: 6rem;
-    width: 19.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.upload-container img {
+    width: 12rem;
+    height: 8rem;
     border-radius: .3rem;
 }
 
@@ -93,7 +91,7 @@
 }
 
 .add-product-selector {
-    /* border: 2px solid red; */
+    border-radius: .3rem;
     height: 3rem;
     width: 19.5rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -125,4 +123,72 @@
 .addproduct-btn:active {
     background-color: white;
     color: black;
+}
+
+.uploaded-img {
+    /* border: 2px solid red; */
+    width: 5rem;
+    /* height: ; */
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+@media (max-width:1000px) {
+    .add-product {
+        /* border: 2px solid rgb(255, 0, 0); */
+        padding: 1.7rem 1rem 1rem 1rem;
+        width: 40rem;
+    }
+
+    .product-title-input {
+        width: 35rem;
+    }
+
+    .addproduct-price {
+        gap: 1rem;
+    }
+
+    .old-price-input,
+    .new-price-input {
+        width: 16.5rem;
+    }
+
+    .add-product-selector {
+        width: 16.5rem;
+    }
+
+    .upload-container-keupar {
+        width: 16.5rem;
+    }
+}
+
+/* // to be eidted */
+@media (max-width:840px) {
+    .add-product {
+        /* border: 2px solid rgb(255, 0, 0); */
+        padding: 1.7rem 1rem 1rem 1rem;
+        width: 32rem;
+    }
+
+    .product-title-input {
+        width: 35rem;
+    }
+
+    .addproduct-price {
+        gap: 1rem;
+    }
+
+    .old-price-input,
+    .new-price-input {
+        width: 16.5rem;
+    }
+
+    .add-product-selector {
+        width: 16.5rem;
+    }
+
+    .upload-container-keupar {
+        width: 16.5rem;
+    }
 }
