@@ -21,13 +21,16 @@
     margin-top: 1rem;
 }
 
-.sidebar button {
+.sidebar a button {
     /* border: 2px solid red; */
     border-radius: .2rem;
     border: none;
     outline: none;
     padding: .8rem 2.5rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ---- */
@@ -41,12 +44,6 @@
     color: white;
 }
 
-.sidebar a button {
-    /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .sidebar button span svg {
     /* border: 2px solid red; */
@@ -68,6 +65,27 @@
 }
 
 /* ----------------------------------------- */
+
+@media (max-width:1000px) {
+    .sidebar a button {
+        border-radius: .2rem;
+        outline: none;
+        padding: .8rem 2.5rem;
+        cursor: pointer;
+        width: 12rem;
+        height: 2.8rem;
+    }
+
+    .sidebar a button span svg {
+        /* border: 2px solid red; */
+        font-size: 1.2rem;
+    }
+
+    .sidebar a button p {
+        /* border: 2px solid red; */
+        font-size: .8rem;
+    }
+}
 
 @media (max-width:800px) {
     .container1 {
@@ -100,4 +118,23 @@
         margin-top: 0rem;
     }
 
+    .sidebar a button {
+        /* border: 2px solid red;    */
+        border-radius: .2rem;
+        outline: none;
+        padding: .8rem 2.5rem;
+        cursor: pointer;
+        width: 15rem;
+        height: 3rem;
+    }
+
+    .sidebar a button span svg {
+        /* border: 2px solid red; */
+        font-size: 1.5rem;
+    }
+
+    .sidebar a button p {
+        /* border: 2px solid red; */
+        font-size: 1rem;
+    }
 }

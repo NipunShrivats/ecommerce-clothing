@@ -130,3 +130,65 @@
     width: 5rem;
     /* height: ; */
 }
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+@media (max-width:1000px) {
+    .add-product {
+        /* border: 2px solid rgb(255, 0, 0); */
+        padding: 1.7rem 1rem 1rem 1rem;
+        width: 40rem;
+    }
+
+    .product-title-input {
+        width: 35rem;
+    }
+
+    .addproduct-price {
+        gap: 1rem;
+    }
+
+    .old-price-input,
+    .new-price-input {
+        width: 16.5rem;
+    }
+
+    .add-product-selector {
+        width: 16.5rem;
+    }
+
+    .upload-container-keupar {
+        width: 16.5rem;
+    }
+}
+
+/* // to be eidted */
+@media (max-width:840px) {
+    .add-product {
+        /* border: 2px solid rgb(255, 0, 0); */
+        padding: 1.7rem 1rem 1rem 1rem;
+        width: 32rem;
+    }
+
+    .product-title-input {
+        width: 35rem;
+    }
+
+    .addproduct-price {
+        gap: 1rem;
+    }
+
+    .old-price-input,
+    .new-price-input {
+        width: 16.5rem;
+    }
+
+    .add-product-selector {
+        width: 16.5rem;
+    }
+
+    .upload-container-keupar {
+        width: 16.5rem;
+    }
+}

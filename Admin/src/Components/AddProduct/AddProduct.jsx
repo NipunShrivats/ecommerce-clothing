@@ -8,7 +8,7 @@ export default function Addproducts() {
   const [productDetails, setProductDetails] = useState({
     name: "",
     image: "",
-    category: "women",
+    category: "Select Category",
     new_price: "",
     old_price: "",
   });
