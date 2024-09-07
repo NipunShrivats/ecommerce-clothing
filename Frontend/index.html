@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,11 +9,20 @@
 </head>
 
 <!-- <body oncontextmenu="return false"> -->
+
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
-  <!-- <script src="preventRigntClick.js"></script> -->
-
+  <!-- <script>
+    document.onkeydown = function (event) {
+      if (event.keyCode == 123) {
+        return false;
+      }
+      if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+        return false;
+      }
+    };
+  </script> -->
 </body>
 
 </html>
